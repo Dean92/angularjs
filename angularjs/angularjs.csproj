@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin.html" />
+    <Content Include="controllers\adminControllers.js" />
     <Content Include="controllers\checkoutControllers.js" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
@@ -879,9 +881,13 @@
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="components\cart\cartSummary.html" />
+    <Content Include="views\adminLogin.html" />
+    <Content Include="views\adminMain.html" />
+    <Content Include="views\adminProducts.html" />
     <Content Include="views\checkoutSummary.html" />
     <Content Include="views\placeOrder.html" />
     <Content Include="views\productList.html" />
+    <Content Include="views\thankYou.html" />
     <Content Include="Web.config" />
     <Content Include="Scripts\version.json" />
   </ItemGroup>
